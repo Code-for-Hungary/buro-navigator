@@ -36,13 +36,13 @@ export default function Navigator({
           width={width}
           height={height}
           className="absolute inset-0 h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0" />
         <div
           className="relative z-10 flex h-full items-center justify-center px-4 md:px-6">
-          <div className="w-full max-w-xl">
+          <div className="w-full max-w-xl mt-6">
             <Input
               type="search"
-              placeholder="Search..."
+              placeholder="Hányas szobába megy?"
               className="w-full rounded-full bg-white/90 px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" />
           </div>
         </div>
